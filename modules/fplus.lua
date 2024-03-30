@@ -5,7 +5,7 @@ local function fplus:ChatMessageInfo(func)
     	if type(func) == "function" then
             func(info)
         end
-   	 end
+   	 end)
     end
 
 local function fplus:KeyPressed(key, statement, func)
